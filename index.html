@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hundraser Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Hundraser Information</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#labrador">Labrador Retriever</a></li>
+            <li><a href="#bulldog">Engelsk Bulldog</a></li>
+            <li><a href="#germanshepherd">Schäfer</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="labrador">
+            <h2>Labrador Retriever</h2>
+            <img src="labrador.jpg" alt="Labrador Retriever">
+            <p>Labradoren är en av de mest populära hundraserna i världen. De är vänliga, intelligenta och lättlärda. Labradorer kräver regelbunden motion och mental stimulans.</p>
+            <button onclick="showInfo('labradorInfo')">Läs mer om Labradors välfärd</button>
+            <div id="labradorInfo" class="info">
+                <p>Att tänka på: Labradorer kan bli överviktiga om de inte får tillräckligt med motion och rätt kost. De behöver också socialt umgänge för att hålla sig glada och hälsosamma.</p>
+            </div>
+        </section>
+
+        <section id="bulldog">
+            <h2>Engelsk Bulldog</h2>
+            <img src="bulldog.jpg" alt="Engelsk Bulldog">
+            <p>Engelska bulldogar är kända för sin vänliga natur och lugna temperament. De har dock vissa hälsoproblem som kräver uppmärksamhet.</p>
+            <button onclick="showInfo('bulldogInfo')">Läs mer om Bulldogs välfärd</button>
+            <div id="bulldogInfo" class="info">
+                <p>Att tänka på: Bulldogs kan ha andningsproblem på grund av deras korta nos. Det är viktigt att undvika överansträngning, särskilt i varmt väder.</p>
+            </div>
+        </section>
+
+        <section id="germanshepherd">
+            <h2>Schäfer</h2>
+            <img src="germanshepherd.jpg" alt="Schäfer">
+            <p>Schäfer är en mycket intelligent och mångsidig hundras. De är ofta använda som tjänstehundar på grund av deras höga arbetskapacitet.</p>
+            <button onclick="showInfo('germanshepherdInfo')">Läs mer om Schäfers välfärd</button>
+            <div id="germanshepherdInfo" class="info">
+                <p>Att tänka på: Schäferhundar behöver mycket motion och mental stimulans. De kan utveckla ledproblem om de inte får rätt vård och träning.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Hundraser Information. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
